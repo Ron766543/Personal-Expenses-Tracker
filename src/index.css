@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+*{
+    scrollbar-width: none;
+}
+
+html{
+    overflow-x: hidden;
+}

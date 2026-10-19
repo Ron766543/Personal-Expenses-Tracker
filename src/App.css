@@ -1,0 +1,82 @@
+.App {
+    background-color: #0b0e1bf7;
+    background-image: radial-gradient(at 0% 0%, rgba(255, 46, 147, .14) 0, transparent 55%), radial-gradient(at 100% 15%, rgba(255, 138, 0, .12) 0, transparent 50%), radial-gradient(at 50% 100%, rgba(157, 78, 221, .12) 0, transparent 55%), radial-gradient(at 10% 80%, rgba(0, 242, 254, .08) 0, transparent 50%);
+    min-height: 100vh;
+}
+
+.header {
+    border-bottom: 2.5px solid rgba(255, 255, 255, .08);
+
+}
+
+.glass-cards {
+    background: rgba(18, 22, 43, .72);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background: linear-gradient(255deg, #FFF 30%, #FF9F1C 85%, #FF2E93 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-App {
+    border-top: 2px solid rgba(255, 255, 255, .08);
+}
+
+
+
+.glass-card {
+    background: rgba(18, 22, 43, .72);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, .08);
+    box-shadow: -3px -3px 3px 5px rgba(98, 30, 96, 0.274);
+}
+
+
+@keyframes slide {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.submit-btn{
+    /* animation: slide 1.5s ease-in-out 1; */
+    border-top: 1px solid slategray;
+    border-left: 1px solid slategray;
+    border-right: 1px solid slategray;
+    margin-bottom: 8px;
+    border-bottom: 0.5px solid rgb(199, 4, 170);
+}
+
+
+
+.gls-c {
+    background: rgba(18, 22, 43, .72);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, .08)
+}
+
+.gls-c-h {
+    transition: all .28s cubic-bezier(.16, 1, .3, 1)
+}
+
+.gls-c-h:hover {
+    border-color: rgba(255, 46, 147, .4);
+    background: rgba(26, 31, 58, .85);
+    transform: translateY(-2px);
+    box-shadow: 0 16px 36px -12px rgba(255, 46, 147, .22)
+}
+
+.solar-gradient-text {
+    background: linear-gradient(135deg, #FFF 30%, #FFB4D6 75%, #FF8A00 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent
+}
